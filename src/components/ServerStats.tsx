@@ -40,7 +40,7 @@ const ServerStats = () => {
           </div>
           <div>
             <p className="text-2xl font-bold text-white">
-              IP: 185.169.134.3:7777
+              IP: 94.198.51.12:1414
             </p>
             <p className="text-slate-400">OZRP Сервер</p>
           </div>
