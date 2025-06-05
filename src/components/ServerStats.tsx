@@ -9,7 +9,7 @@ const ServerStats = () => {
             <Icon name="Users" className="text-white" size={24} />
           </div>
           <div>
-            <p className="text-2xl font-bold text-white">347</p>
+            <p className="text-2xl font-bold text-white">521</p>
             <p className="text-slate-400">Игроков онлайн</p>
           </div>
         </div>
@@ -19,7 +19,7 @@ const ServerStats = () => {
             <Icon name="MessageSquare" className="text-white" size={24} />
           </div>
           <div>
-            <p className="text-2xl font-bold text-white">12,483</p>
+            <p className="text-2xl font-bold text-white">28,956</p>
             <p className="text-slate-400">Сообщений</p>
           </div>
         </div>
@@ -29,7 +29,7 @@ const ServerStats = () => {
             <Icon name="UserPlus" className="text-white" size={24} />
           </div>
           <div>
-            <p className="text-2xl font-bold text-white">2,156</p>
+            <p className="text-2xl font-bold text-white">4,287</p>
             <p className="text-slate-400">Участников</p>
           </div>
         </div>
@@ -42,7 +42,7 @@ const ServerStats = () => {
             <p className="text-2xl font-bold text-white">
               IP: 185.169.134.3:7777
             </p>
-            <p className="text-slate-400">Сервер</p>
+            <p className="text-slate-400">OZRP Сервер</p>
           </div>
         </div>
       </div>

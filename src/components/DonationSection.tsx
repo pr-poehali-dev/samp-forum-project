@@ -3,40 +3,40 @@ import Icon from "@/components/ui/icon";
 const DonationSection = () => {
   const packages = [
     {
-      name: "Стартовый",
-      price: 299,
+      name: "Silver VIP",
+      price: 199,
       features: [
-        "100,000$ в игре",
+        "100,000$ стартового капитала",
         "VIP статус на 30 дней",
-        "Особый значок на форуме",
-        "Доступ к VIP транспорту",
+        "Особый значок в игре",
+        "Приоритет в очереди",
       ],
       color: "from-blue-500 to-blue-600",
       popular: false,
     },
     {
-      name: "Премиум",
-      price: 599,
+      name: "Gold VIP",
+      price: 399,
       features: [
-        "500,000$ в игре",
-        "Premium статус на 30 дней",
-        "Уникальный дом в центре",
-        "Эксклюзивный транспорт",
-        "Приоритетная поддержка",
+        "500,000$ стартового капитала",
+        "Gold VIP статус на 30 дней",
+        "Эксклюзивные команды",
+        "Бесплатный дом в центре",
+        "Персональный транспорт",
       ],
       color: "from-purple-500 to-purple-600",
       popular: true,
     },
     {
-      name: "Элитный",
-      price: 1299,
+      name: "Platinum VIP",
+      price: 799,
       features: [
-        "2,000,000$ в игре",
-        "Elite статус на 30 дней",
-        "Личный остров",
+        "2,000,000$ стартового капитала",
+        "Platinum VIP на 30 дней",
         "Все виды транспорта",
-        "Административные права",
-        "Персональный менеджер",
+        "Премиум недвижимость",
+        "Административные привилегии",
+        "Персональная поддержка",
       ],
       color: "from-orange-500 to-orange-600",
       popular: false,
@@ -46,11 +46,9 @@ const DonationSection = () => {
   return (
     <div className="bg-slate-800 rounded-lg p-8">
       <div className="text-center mb-8">
-        <h2 className="text-3xl font-bold text-white mb-4">
-          Поддержите сервер
-        </h2>
+        <h2 className="text-3xl font-bold text-white mb-4">Поддержите OZRP</h2>
         <p className="text-slate-400">
-          Выберите подходящий пакет и получите эксклюзивные преимущества
+          Выберите подходящий VIP пакет и получите преимущества на сервере
         </p>
       </div>
 

@@ -3,34 +3,34 @@ import Icon from "@/components/ui/icon";
 const RecentActivity = () => {
   const activities = [
     {
-      user: "PlayerOne",
-      action: "создал новую тему",
-      topic: "Предложение по улучшению сервера",
-      time: "5 минут назад",
-      avatar:
-        "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=50&h=50&fit=crop&crop=face",
-    },
-    {
-      user: "GamerPro",
-      action: "ответил в теме",
-      topic: "Помощь с квестами",
-      time: "12 минут назад",
-      avatar:
-        "https://images.unsplash.com/photo-1494790108755-2616b612b776?w=50&h=50&fit=crop&crop=face",
-    },
-    {
-      user: "AdminMax",
-      action: "опубликовал новость",
-      topic: "Обновление сервера v2.1",
-      time: "1 час назад",
+      user: "OZRP_Admin",
+      action: "опубликовал обновление",
+      topic: "Новая система работ v3.2",
+      time: "10 минут назад",
       avatar:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=50&h=50&fit=crop&crop=face",
     },
     {
-      user: "NewPlayer",
-      action: "зарегистрировался на форуме",
+      user: "CriminalBoss",
+      action: "подал заявку",
+      topic: "Заявка в банду Grove Street",
+      time: "25 минут назад",
+      avatar:
+        "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=50&h=50&fit=crop&crop=face",
+    },
+    {
+      user: "PoliceOfficer",
+      action: "создал жалобу",
+      topic: "Нарушение ПДД игроком",
+      time: "1 час назад",
+      avatar:
+        "https://images.unsplash.com/photo-1494790108755-2616b612b776?w=50&h=50&fit=crop&crop=face",
+    },
+    {
+      user: "NewbiePlayer",
+      action: "присоединился к OZRP",
       topic: "",
-      time: "2 часа назад",
+      time: "3 часа назад",
       avatar:
         "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=50&h=50&fit=crop&crop=face",
     },

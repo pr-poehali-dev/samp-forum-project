@@ -10,9 +10,11 @@ const Header = () => {
               <Icon name="Gamepad2" className="text-purple-400" size={32} />
               <div>
                 <h1 className="text-2xl font-bold text-white font-montserrat">
-                  SAMP FORUM
+                  OZRP|samp
                 </h1>
-                <p className="text-sm text-slate-400">Лучший игровой сервер</p>
+                <p className="text-sm text-slate-400">
+                  Официальный сервер OZRP
+                </p>
               </div>
             </div>
           </div>
